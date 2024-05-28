@@ -1,0 +1,7 @@
+  MyEC2Instance: 
+    Type: AWS::EC2::Instance
+    Properties: 
+      ImageId: ami-0bb84b8ffd87024d8
+       AvailabilityZone: String
+      KeyName: Name
+      Value: Sergeb
