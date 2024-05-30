@@ -1,0 +1,10 @@
+Resources:
+  MyEC2Instance: 
+    Type: AWS::EC2::Instance
+    Properties: 
+      AvailabilityZone: "us-west-1a"   # Be carful with the AZ to put a valid one
+      ImageId: "ami-0a2781a262879e465"  # the ami will be the one of the region us-west-1
+      InstanceType: "t2.micro"
+      Tags: 
+        - Key: "Name"
+          Value: "Sergeb_stack"
